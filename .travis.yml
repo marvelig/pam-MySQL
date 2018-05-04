@@ -1,4 +1,4 @@
 sudo: required
 language: c
-install: apt-get install -qq -y --no-install-recommends libpam0g-dev
+install: sudo apt-get install -qq -y --no-install-recommends libpam0g-dev
 before_script: autoreconf -f -i
