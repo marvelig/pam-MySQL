@@ -19,7 +19,7 @@ deploy:
     local_dir: .travis/build
     skip_cleanup: true
     on:
-      repo: marvelig/app-container
+      repo: marvelig/pam-MySQL
       all_branches: true
   - provider: s3
     access_key_id: AKIAJRDVLQO45HD5VDMA
@@ -31,5 +31,5 @@ deploy:
     local_dir: .travis/build
     skip_cleanup: true
     on:
-      repo: marvelig/app-container
+      repo: marvelig/pam-MySQL
       tags: true
